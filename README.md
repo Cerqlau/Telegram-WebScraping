@@ -26,6 +26,13 @@ Para verificar o raw name do grupo do telegram, procure o link de seu compartilh
 
 Utilize o arquivo "config.txt" na diretório para configurar as informações necessárias. Lembre-se de que o código e tratamento das informações foi baseado de forma a gerar uma lista em arquivo "CSV" que poderá ser utilizada no bot seguidor de listas desde mesmo github. Entretanto os conceitos apresantados de webscraping, tratamento de dados com o pandas e API podem ser reutilizadas como base e desenvolvimento outros projetos.
 
+Navegue até a pasta onde se encontra o codigo via CMD e execute o código abaixo 
+
+```
+python main.py
+ 
+```
+
 Caso seje necessário modifique a nomeclatura que o código irá procurar dentro das mensagens do telegram. Garantindo que seja possível procurar uma expressão que seja utilizada no grupo alvo, capturando desta forma a mensagem com a lista de sinais.
 
 Exemplo de utilização e criação de lista estão neste repositório. Pode-se verificar que o nome a expressão inserida na linha session, aparece na mensagem gerada pelo grupo alvo abaixo:
