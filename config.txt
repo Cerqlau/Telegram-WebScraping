@@ -1,0 +1,12 @@
+[telegram]
+api_id = inserir o id aqui sem aspas
+api_hash=  inserir o hash aqui sem aspas
+telegram_scraping =  inserir o nome do grupo aqui 
+telegram_token = "token"
+# token para envio de mensagens para bots do telegram
+telegram_id ="telegram id"
+#id do bot do telegram
+usar_bot = N
+#ativa ou desativa o envio de mensagens para bot do telegram 
+
+
