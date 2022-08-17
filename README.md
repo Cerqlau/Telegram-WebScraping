@@ -88,7 +88,7 @@ Instagram : laurorcerqueira
 * [API Telegram Auth](https://my.telegram.org/auth)
 * [Python 3.8](https://www.python.org/downloads/release/python-380/)
 * [Telethon](https://docs.telethon.dev/en/stable/) 
-* [Pandas] (https://pandas.pydata.org/docs/index.html)
+* [Pandas](https://pandas.pydata.org/docs/index.html)
 
 
 ## 📄 Licença
