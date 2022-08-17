@@ -1,6 +1,6 @@
 # Telegram-WebScraping
 
-Este projeto foi desenvolvido em Python a fim de realizar iteração com a API do Telegram e webscraping à partir de grupos de envios gratuitos de sinais para IQ. Com esta mesma base e tipo  pode-se efetuar a expansão para qualquer tipo de grupos e futuras análises de dados. 
+Este projeto foi desenvolvido em Python a fim de realizar interação com a API do Telegram e webscraping à partir de grupos de envios gratuitos de sinais para IQ. Com esta mesma base e tipo pode-se efetuar a expansão para qualquer dos demais grupos livres e futuras análises de dados. 
 
 ## 🚀 Começando
 
@@ -15,20 +15,20 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 ### 🔧 Pré-configurações
 
-É necessário a solicitação da API_ID e API_Hash para se ter acesso a API do telegram. Esta pode ser realizada através do endereço https://my.telegram.org/auth. Após realizar a solicitações necessária faça logout de forma a evitar conflito de informações com a API Telegram.
+É necessário a solicitação da API_ID e API_Hash para se ter acesso a API do telegram. Esta pode ser realizada através do endereço https://my.telegram.org/auth. Após realizar a solicitações necessárias faça logout de forma a evitar conflito de informações com a API Telegram.
 
-Ateção: Não transfira estes dados. O código em questão faz a utiliziação do mesmo na biblioteca Telethon, por motivos de segurança pode ser solicitado novamente certo período sem utilizar, mesmo que uma sessão anterior já tenha sido realizada. 
+Ateção: Não transfira estes dados. O código em questão faz a utiliziação do mesmo na biblioteca Telethon, por motivos de segurança pode ser solicitado novamente, a cada certo período sem utilizar, mesmo que uma sessão anterior já tenha sido realizada. Caso necessário simplemente delete o arquivo de sessão gerada na pasta raiz do projeto
 
-Para verificar o raw name do grupo do telegram procure o link de seu compartilhamento, que deverá se parecer com este: https://t.me/grupofulanodetal o nome final do endereço é o nome real do grupo. Não insira emojis no nome que o código irá veridicar, durante os testes isto se provou contraproducente.
+Para verificar o raw name do grupo do telegram, procure o link de seu compartilhamento, deverá se parecer com este: https://t.me/grupofulanodetal o nome final do endereço é o nome real do grupo. Não insira emojis no nome que o código irá verificar, durante os testes isto se provou contraproducente.
 
 
 ### ⚙️ Executando o programa
 
-Utilize o arquivo "config.txt" na diretório para configurar as informações necessárias.  Lembre-se de que o código e tratamento das informações foi baseado de forma a gerar uma lista em arquivo "CSV" que poderá ser utilizado no bot seguidor de listas desde mesmo github. Entretanto os conceitos apresantados de webscraping, tratamento de dados com o pandas e API podem ser reutilizadas como base e desenvolvimento outros projetos.
+Utilize o arquivo "config.txt" na diretório para configurar as informações necessárias. Lembre-se de que o código e tratamento das informações foi baseado de forma a gerar uma lista em arquivo "CSV" que poderá ser utilizada no bot seguidor de listas desde mesmo github. Entretanto os conceitos apresantados de webscraping, tratamento de dados com o pandas e API podem ser reutilizadas como base e desenvolvimento outros projetos.
 
-Caso seje necessário modifique a nomeclatura que o código irá procurar dentro das mensagens do telegram. Garantindo que seja possível procurar uma expressão que seja utilizada no grupo algo.
+Caso seje necessário modifique a nomeclatura que o código irá procurar dentro das mensagens do telegram. Garantindo que seja possível procurar uma expressão que seja utilizada no grupo alvo, capturando desta forma a mensagem com a lista de sinais.
 
-Exemplo de utilização e criação de lista estão neste repositório. Pode-se verificar que o nome a expressão inserida na linha session, aparece na mensagagem gerada pelo grupo algo
+Exemplo de utilização e criação de lista estão neste repositório. Pode-se verificar que o nome a expressão inserida na linha session, aparece na mensagem gerada pelo grupo alvo abaixo:
 
 
 >![Lista_teste_16 08 2022](https://user-images.githubusercontent.com/87389666/185007632-cbbeb500-085b-44a1-a38e-8c12c9f70f8b.JPG)
