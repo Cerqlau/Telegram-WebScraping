@@ -1,4 +1,4 @@
-# Telegram-WebScrap
+# Telegram-WebScraping
 
 Este projeto foi desenvolvido em Python a fim de realizar iteração com a API do Telegram e webscraping à partir de grupos de envios gratuitos de sinais para IQ. Com esta mesma base e tipo  pode-se efetuar a expansão para qualquer tipo de grupos e futuras análises de dados. 
 
@@ -30,6 +30,8 @@ Caso seje necessário modifique a nomeclatura que o código irá procurar dentro
 
 Exemplo de utilização e criação de lista estão neste repositório. Pode-se verificar que o nome a expressão inserida na linha session, aparece na mensagagem gerada pelo grupo algo
 
+
+![Lista_teste_16 08 2022](https://user-images.githubusercontent.com/87389666/185007343-a6f4f9c9-f4c1-4325-b6b9-e46f4470e186.JPG)
 
 
 ```
