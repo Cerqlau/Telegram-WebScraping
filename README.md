@@ -93,7 +93,9 @@ pyinstaller --clean Telegram-WebScrap-Lista-IQ-exe.spec
 ## 📦 Desenvolvimento
 
 Lauro Cerqueira
+
 LinkdIn: https://www.linkedin.com/in/lauro-cerqueira-70473568/
+
 Instagram : laurorcerqueira
 
 ## 🛠️ Construído com
@@ -108,7 +110,7 @@ Instagram : laurorcerqueira
 
 Este projeto está sob a licença MIT - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
 
-## 🎁 
+## 🎁 Agradecimentos
 
 * Conte a outras pessoas sobre este projeto 📢
 * Convide alguém da equipe para uma cerveja 🍺 
