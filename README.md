@@ -62,6 +62,10 @@ tratamento1= re.findall(padrao,text)
 
 ```
 
+### 🎲 Responsabilidades 
+
+🤖 Não me responsabilizo por operações que tenham resultados negativos ou falhas no código, este foi desenvolvido para estudos. Utilize-o com sabedoria. 
+
 ### 📨 Distribuição
 
 É possivel efetuar a distribuição para usuários que não possuem pyton instalados em suas máquinas através da biblioteca pyinstaller. 
