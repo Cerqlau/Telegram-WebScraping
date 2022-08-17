@@ -1,6 +1,6 @@
 # Telegram-WebScraping
 
-Este projeto foi desenvolvido em Python a fim de realizar interação com a API do Telegram e webscraping à partir de grupos de envios gratuitos de sinais para IQ. Com esta mesma base e tipo pode-se efetuar a expansão para qualquer dos demais grupos livres e futuras análises de dados. 
+Este projeto foi desenvolvido em Python a fim de realizar interação com a API do Telegram e webscraping a partir de grupos de envios gratuitos de sinais para IQ. Com esta mesma base e tipo pode-se efetuar a expansão para qualquer dos demais grupos livres e futuras análises de dados. 
 
 ## 🚀 Começando
 
